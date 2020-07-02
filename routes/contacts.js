@@ -16,14 +16,14 @@ router.post('/', (req, res) => {
 });
 
 // @route  PUT api/contacts/:id
-// @route  Update
+// @route  Update contact
 // @route  Private
 router.put('/:id', (req, res) => {
   res.send('Update contact');
 });
 
 // @route  DELETE api/contacts/:id
-// @route  Delete
+// @route  Delete contact
 // @route  Private
 router.delete('/', (req, res) => {
   res.send('Delete contact');
